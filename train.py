@@ -147,7 +147,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Training')
     parser.add_argument('--entity', type=str,
-                        help='Entity', default='davidlainesv')
+                        help='Entity', default='xmak9102')
     parser.add_argument('--project', type=str,
                         help='Project name', default='DenseNet_project')
     parser.add_argument('--dataset', type=str,
