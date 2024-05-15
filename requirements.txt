@@ -1,0 +1,5 @@
+mediapipe
+wandb
+tensorflow
+tensorflow_addons
+tensorflow_datasets
