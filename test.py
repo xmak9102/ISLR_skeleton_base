@@ -3,7 +3,7 @@ from config import RANDOM_SEED
 from dataset import Dataset
 import numpy as np
 import wandb
-from wandb.keras import WandbCallback
+from wandb.integration.keras import WandbCallback
 import tensorflow as tf
 from model import build_densenet121_model
 from optimizer import build_sgd_optimizer
