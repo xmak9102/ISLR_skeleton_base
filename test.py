@@ -99,7 +99,7 @@ if __name__ == "__main__":
     parser.add_argument('--entity', type=str,
                         help='Entity', default='xmak9102')
     parser.add_argument('--project', type=str,
-                        help='Project name', default='testing')
+                        help='Project name', default='Dense_project')
     parser.add_argument('--dataset', type=str,
                         help='Name of dataset', default='wlasl100_tssi')
     parser.add_argument('--weights_dir', type=str,
