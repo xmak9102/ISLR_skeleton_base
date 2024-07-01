@@ -1,6 +1,6 @@
 from enum import IntEnum
 import tensorflow as tf
-from config import AUTSL_INPUT_HEIGHT, MEJIAPEREZ_INPUT_HEIGHT, WLASL100_INPUT_HEIGHT
+from config import AUTSL_INPUT_HEIGHT, WLASL100_INPUT_HEIGHT
 from data_augmentation import RandomFlip, RandomScale, RandomShift, RandomRotation, RandomSpeed
 from preprocessing import Center, CenterAtFirstFrame2D, FillBlueWithAngle, PadIfLessThan, RemoveZ, ResizeIfMoreThan, TranslationScaleInvariant
 import tensorflow_datasets as tfds
